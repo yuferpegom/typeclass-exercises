@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion := "2.13.1"
+ThisBuild / scalaVersion := "2.13.8"
 ThisBuild / organization := "com.example"
 
 lazy val root = (project in file("."))
@@ -9,5 +9,5 @@ lazy val root = (project in file("."))
       "org.typelevel" %% "discipline-core" % "1.0.0" % Test,
       "org.typelevel" %% "discipline-scalatest" % "2.1.1" % Test,
       "org.scalatest" %% "scalatest" % "3.2.2" % Test
-    )
+    ) 
   )

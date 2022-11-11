@@ -6,3 +6,10 @@ target
 .idea
 .bsp
 out
+.bloop/
+.lh/
+.metals/
+.vscode/
+project/
+project/project/
+
